@@ -3,6 +3,6 @@ const { mailController } = require("../controller");
 
 const router = Router();
 
-router.get("/", mailController.getEmails);
+router.get("/", mailController.deleteEmail);
 
 module.exports = router;
