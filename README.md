@@ -10,7 +10,7 @@
 
 <br>
 
-## 🍕 E:Raser Server
+## 🍕 E-레이저 Server
 
 | [권세훈](https://github.com/devkwonsehoon) | [강민재](https://github.com/m1njae) |
 | :----------------------------------------: | :---------------------------------: |
