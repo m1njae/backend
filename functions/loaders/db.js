@@ -1,5 +1,5 @@
-import mongoose from "mongoose";
-import config from "../config";
+const mongoose = require("mongoose");
+const config = require("../config");
 
 const connectDB = async () => {
   try {
@@ -8,10 +8,10 @@ const connectDB = async () => {
     mongoose.set("autoCreate", true);
 
     console.log("Mongoose Connected ...");
-  } catch (err: any) {
+  } catch (err) {
     console.error(err.message);
     process.exit(1);
   }
 };
 
-export default connectDB;
+module.exports = connectDB;
