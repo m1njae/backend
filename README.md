@@ -1,8 +1,11 @@
 <!-- @format -->
 
-## E:레이저 Server
+## E-레이저 Server
 
-> 30th SOPT Sopkathon - TEAM E:Raser ✨ <br>
+메일함을 정리하며,
+인터넷 일상에서 환경보호 손쉽게 시작하기
+
+> 30th SOPT Sopkathon - TEAM E-레이저 ✨ <br>
 > 2022.05.21 ~
 
 <br>
