@@ -5,10 +5,13 @@ const rm = require("../constants/responseMessage");
 const mailService = require("../service/mailService");
 
 const deleteEmail = async (req, res) => {
-  try {
-    const data = await mailService.untrashMail();
+  const { startDate, endDate } = req.query;
+  const { token } = req.headers;
 
-    res.status(sc.OK).send(success(sc.OK, rm.UPDATE_ONE_USER_SUCCESS, data));
+  try {
+    await mailService.untrashMail(startDate, endDate, token);
+
+    res.status(sc.OK).send(success(sc.OK, rm.UPDATE_ONE_USER_SUCCESS));
   } catch (error) {
     functions.logger.error(`[ERROR] [${req.method.toUpperCase()}] ${req.originalUrl}`, `[CONTENT] ${error}`);
     console.log(error);
