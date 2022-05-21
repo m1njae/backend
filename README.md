@@ -1,13 +1,13 @@
 <!-- @format -->
 
-## E:레이저 Server
+## E-레이저 Server
 
 > 30th SOPT Sopkathon - TEAM E:Raser ✨ <br>
 > 2022.05.21 ~
 
 <br>
 
-## 🍕 E:Raser Server
+## E-Raser Server
 
 | [권세훈](https://github.com/devkwonsehoon) | [강민재](https://github.com/m1njae) |
 | :----------------------------------------: | :---------------------------------: |
@@ -45,7 +45,7 @@
 ## 🦖 Our Directory Tree
 
 ```bash
-E:Raser
+E-Raser
 └── functions
     ├── config
     ├── constants

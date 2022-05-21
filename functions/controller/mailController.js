@@ -11,7 +11,8 @@ const deleteEmail = async (req, res) => {
   try {
     await mailService.untrashMail(startDate, endDate, token);
 
-    res.status(sc.OK).send(success(sc.OK, rm.UPDATE_ONE_USER_SUCCESS));
+    // if (!data) return res.status(sc.BAD_REQUEST).send(success(sc.BAD_REQUEST, rm.NO_MAIL));
+    res.status(sc.OK).send(success(sc.OK, rm.DELETE_MAIL_START));
   } catch (error) {
     functions.logger.error(`[ERROR] [${req.method.toUpperCase()}] ${req.originalUrl}`, `[CONTENT] ${error}`);
     console.log(error);

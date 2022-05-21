@@ -4,7 +4,8 @@ module.exports = {
   NOT_FOUND: "잘못된 경로입니다",
 
   // 메일
-  DELETE_MAIL_SUCCESS: "메일 정리 완료",
+  DELETE_MAIL_START: "메일 정리 시작",
+  NO_MAIL: "정리할 메일이 없습니다",
 
   // 서버 내 오류
   INTERNAL_SERVER_ERROR: "서버 내 오류",
