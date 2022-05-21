@@ -97,3 +97,21 @@ E-Raser
   }
 }
 ```
+
+<br>
+
+
+## 🦖 Our model
+   
+```javascript
+const heroSchema = new mongoose.Schema(
+  {
+    token: { type: String, required: true },
+    email: { type: String, required: true }
+  },
+  {
+    timestamps: true,
+  }
+);
+```
+    
