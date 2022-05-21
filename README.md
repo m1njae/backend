@@ -41,8 +41,9 @@
 | :--: | :-------------: | :-------: | :--: |
 | Mail |  메일 조회 API  |   세훈    |  ✅  |
 |      |  메일 정리 API  |   세훈    |  ✅  |
+|      |  메일 개수 조회 API  |   세훈    |  ✅  |
 | Hero | 히어로 저장 API |   민재    |  ✅  |
-
+|      |  히어로 조회 API  |   민재    |  ✅  |
 <br>
 
 ## 🦖 Our Directory Tree
@@ -101,7 +102,7 @@ E-Raser
 <br>
 
 ## 🦖 Our Architecture
-<img src="https://user-images.githubusercontent.com/54793607/169669394-9281c3b3-c9f6-4fc4-a29b-e2023e3a82f8.png">
+<img src="https://user-images.githubusercontent.com/54793607/169669426-9844d91b-0224-4398-80a7-46cfeea656c4.png">
 
 <br>
     
