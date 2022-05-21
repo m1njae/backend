@@ -16,4 +16,16 @@ const saveUser = async (token, email) => {
 
 // TODO. Hero 컬렉션에서 전체 조회 -> 리스트 -> length 길이(여기까지가 서비스) -> response(컨트롤러)
 
-module.exports = { saveUser };
+const countUser = async () => {
+  try{
+    
+    const hero = await Hero.find();
+    return hero.length;
+
+  } catch(error){
+    console.log(error);
+    throw error;
+  }
+}
+
+module.exports = { saveUser, countUser };

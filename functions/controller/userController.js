@@ -18,4 +18,16 @@ const saveUserData = async (req, res) => {
   }
 };
 
-module.exports = { saveUserData };
+const countUser = async (req, res) => {
+
+  try{
+    const data = await userService.countUser();
+
+    res.status(sc.OK).send(success(sc.OK, rm.COUNT_USER_SUCCESS, data));
+  } catch (error) {
+    console.log(error);
+    res.status(sc.INTERNAL_SERVER_ERROR).send(fail(sc.INTERNAL_SERVER_ERROR, rm.INTERNAL_SERVER_ERROR));
+  }
+}
+
+module.exports = { saveUserData, countUser };
