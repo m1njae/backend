@@ -1,5 +1,10 @@
 const Hero = require("../models/Hero");
 
+/**
+ * @route POST /user
+ * @desc Create User 
+ * @access Public
+ */
 const saveUser = async (token, email) => {
   try {
     const hero = new Hero({
@@ -14,8 +19,11 @@ const saveUser = async (token, email) => {
   }
 };
 
-// TODO. Hero 컬렉션에서 전체 조회 -> 리스트 -> length 길이(여기까지가 서비스) -> response(컨트롤러)
-
+ /**
+ * @route GET /user
+ * @desc READ User count
+ * @access Public 
+ */
 const countUser = async () => {
   try{
     
