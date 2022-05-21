@@ -100,7 +100,11 @@ E-Raser
 
 <br>
 
+## 🦖 Our Architecture
+<img src="https://user-images.githubusercontent.com/54793607/169669394-9281c3b3-c9f6-4fc4-a29b-e2023e3a82f8.png">
 
+<br>
+    
 ## 🦖 Our model
    
 ```javascript
