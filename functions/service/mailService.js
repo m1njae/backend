@@ -96,4 +96,14 @@ const untrashMail = async (startDate, endDate, token) => {
   return count;
 };
 
-module.exports = { untrashMail };
+const getMailCount = async (token) => {
+  const data = await axios.get("https://gmail.googleapis.com/gmail/v1/users/me/profile", {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+
+  return data.data.messagesTotal;
+};
+
+module.exports = { untrashMail, getMailCount };

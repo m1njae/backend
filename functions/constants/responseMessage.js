@@ -9,6 +9,7 @@ module.exports = {
 
   // 메일
   DELETE_MAIL_START: "메일 정리 시작",
+  GET_MAIL_COUNT_SUCCESS: "메일 개수 조회 성공",
   NO_MAIL: "정리할 메일이 없습니다",
 
   // 서버 내 오류
