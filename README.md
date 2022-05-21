@@ -30,7 +30,7 @@
 
 ## 🦖 Our API Docs
 
-### 👉 [E:Raser API Docs](https://www.notion.so/API-4c1031f189e54176bb6a85b33d55c8c0)
+### 👉 [E-레이저 API Docs](https://www.notion.so/API-4c1031f189e54176bb6a85b33d55c8c0)
 
 <br>
 <Hr>
