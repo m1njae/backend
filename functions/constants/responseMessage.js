@@ -7,5 +7,6 @@ module.exports = {
   DELETE_MAIL_SUCCESS: "메일 정리 완료",
 
   // 서버 내 오류
-  INTERNAL_SERVER_ERROR: "서버 내 오류"
-}
+  INTERNAL_SERVER_ERROR: "서버 내 오류",
+};
+

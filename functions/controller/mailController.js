@@ -4,10 +4,9 @@ const sc = require("../constants/statusCode");
 const rm = require("../constants/responseMessage");
 const mailService = require("../service/mailService");
 
-const getEmails = async (req, res) => {
+const deleteEmail = async (req, res) => {
   try {
-    const data = await mailService.test();
-    console.log(data);
+    const data = await mailService.untrashMail();
 
     res.status(sc.OK).send(success(sc.OK, rm.UPDATE_ONE_USER_SUCCESS, data));
   } catch (error) {
@@ -18,4 +17,4 @@ const getEmails = async (req, res) => {
   }
 };
 
-module.exports = { getEmails };
+module.exports = { deleteEmail };

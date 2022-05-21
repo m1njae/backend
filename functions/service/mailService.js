@@ -1,15 +1,11 @@
-// const gmail = require("gmail-js");
-const { google } = require("googleapis");
-const gmail = google.gmail("v1");
 const axios = require("axios");
-const qs = require("qs");
 
 // const params = { search:{keyword:"안녕"} };
 // axios.get("http://api.com", {params});
 
 // // http://api.com?search[keyword]=안녕
 
-const test = async () => {
+const untrashMail = async () => {
   const getUrl = `https://gmail.googleapis.com/gmail/v1/users/me/messages`;
 
   const token =
@@ -42,4 +38,4 @@ const test = async () => {
   return data.data.messages;
 };
 
-module.exports = { test };
+module.exports = { untrashMail };
